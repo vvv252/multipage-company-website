@@ -1,0 +1,1599 @@
+/* ------- FONTS ------- */
+
+@font-face {
+  font-family: 'Museo Sans 100';
+  src: url('../fonts/MuseoSansCyrl-100.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url('../fonts/MuseoSansCyrl-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Museo Sans 700';
+  src: url('../fonts/MuseoSansCyrl-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/MuseoSansCyrl-700.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/MuseoSansCyrl-700.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/MuseoSansCyrl-700.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* ------ SPECIFICATION -------- */
+
+body {
+	font-family: 'Museo Sans', sans-serif;
+	padding: 0;
+	letter-spacing: 0em;
+	margin: 0;
+	font-size: 14px;
+	/*font-weight: 300;*/
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Museo Sans 700';
+	color: #081d42;
+}
+
+h1 {
+	font-size: 58px;
+}
+
+h2 {
+	font-size: 29px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5 {
+	font-size: 21px;
+}
+
+h6 {
+	font-size: 19px;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+
+.btn {
+	color: #fff;
+	font-size: 13px;
+	background: #1cb883;
+	border-bottom: 4px solid #149d6f;
+	text-align: center;
+	border-radius: 0px;
+	font-family: 'Museo Sans 700';
+}
+
+.btn:hover {
+	background: #149d6f;
+	border-bottom: 4px solid #1cb883;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.social i {
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkl
+}
+
+.menu-open {
+	background: none;
+	border: 0;
+	color: #3f4b60;
+	font-size: 26px;
+	margin-top: 13px;
+	cursor: pointer;
+}
+
+.container-fluid-map {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* SLIDER */
+
+.slider {
+	margin: 30px auto 72px auto !important;
+	width: 90%;
+}
+
+.slide:hover, .slide:focus, .slide:active, .slick-track:focus {
+	outline: none !important;
+}
+
+.slider img {
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 5px solid #656e8d;
+}
+
+.slide__title {
+	font-size: 16px;
+	font-family: 'Museo Sans 700';
+	color: #747487;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 11px;
+}
+
+.slide__text {
+	font-size: 13px;
+	font-family: 'Museo Sans 300';
+	color: #404048;
+	width: 94%;
+	text-align: center;
+}
+
+.slide .fa-facebook-f {
+	color: #2c60a0;
+	display: flex;
+	justify-content: center;
+	margin-top: 9px;
+	margin-bottom: 23px;
+	font-size: 14px;
+}
+
+.slick-prev, .slick-next {
+	font-size: 18px;
+	color: #404048;
+	height: 27px;
+	width: 10px;
+	top: 23%;
+}
+
+.slick-prev {
+	left: 0px;
+}
+
+.slick-next {
+	right: 0px;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    content: '';
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+	background: rgb(139, 154, 183);
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 11px;
+    height: 11px;
+    padding: 0px;
+    cursor: pointer;
+    background: rgba(139, 154, 183, 0.55);
+}
+
+.slick-dots li button:active, .slick-dots li button:active:hover, .slick-dots li button:focus {
+	background: #8b9ab7;
+}
+
+.slick-prev:hover, .slick-next:hover, .slick-prev:active, .slick-next:active, .slick-prev:focus, .slick-next:focus {
+	color: #404048;
+}
+
+.slick-prev:before, .slick-next:before {
+   display: none;
+}
+
+/* PRELOADER */
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('/images/spinner.gif') no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.csscssload-load-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	display: box;
+		display: -o-box;
+		display: -ms-box;
+		display: -webkit-box;
+		display: -moz-box;
+	display: flex;
+		display: -o-flex;
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+	flex-flow: row wrap;
+		-o-flex-flow: row wrap;
+		-ms-flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		-moz-flex-flow: row wrap;
+}
+.csscssload-load-frame .cssload-dot {
+	width: 20px;
+	height: 20px;
+}
+.csscssload-load-frame .cssload-dot:nth-child(1) {
+	background: rgb(32,223,214);
+	animation: cssload-load 0.39s linear -0.13s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.13s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.13s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.13s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.13s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(2) {
+	background: rgb(32,223,220);
+	animation: cssload-load 0.39s linear -0.26s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.26s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.26s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.26s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.26s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(3) {
+	background: rgb(32,220,223);
+	animation: cssload-load 0.39s linear -0.39s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.39s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.39s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.39s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.39s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(4) {
+	background: rgb(32,214,223);
+	animation: cssload-load 0.39s linear -0.52s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.52s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.52s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.52s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.52s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(5) {
+	background: rgb(32,207,223);
+	animation: cssload-load 0.39s linear -0.65s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.65s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.65s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.65s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.65s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(6) {
+	background: rgb(32,201,223);
+	animation: cssload-load 0.39s linear -0.78s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.78s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.78s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.78s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.78s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(7) {
+	background: rgb(32,194,223);
+	animation: cssload-load 0.39s linear -0.91s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -0.91s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -0.91s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -0.91s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -0.91s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(8) {
+	background: rgb(32,188,223);
+	animation: cssload-load 0.39s linear -1.04s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.04s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.04s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.04s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.04s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(9) {
+	background: rgb(32,182,223);
+	animation: cssload-load 0.39s linear -1.17s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.17s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.17s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.17s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.17s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(10) {
+	background: rgb(32,175,223);
+	animation: cssload-load 0.39s linear -1.3s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.3s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.3s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.3s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.3s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(11) {
+	background: rgb(32,169,223);
+	animation: cssload-load 0.39s linear -1.43s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.43s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.43s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.43s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.43s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(12) {
+	background: rgb(32,163,223);
+	animation: cssload-load 0.39s linear -1.56s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.56s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.56s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.56s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.56s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(13) {
+	background: rgb(32,156,223);
+	animation: cssload-load 0.39s linear -1.69s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.69s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.69s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.69s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.69s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(14) {
+	background: rgb(32,150,223);
+	animation: cssload-load 0.39s linear -1.82s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.82s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.82s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.82s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.82s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(15) {
+	background: rgb(32,143,223);
+	animation: cssload-load 0.39s linear -1.95s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -1.95s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -1.95s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -1.95s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -1.95s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(16) {
+	background: rgb(32,137,223);
+	animation: cssload-load 0.39s linear -2.08s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.08s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.08s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.08s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.08s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(17) {
+	background: #2083df;
+	animation: cssload-load 0.39s linear -2.21s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.21s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.21s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.21s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.21s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(18) {
+	background: #207cdf;
+	animation: cssload-load 0.39s linear -2.34s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.34s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.34s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.34s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.34s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(19) {
+	background: #2076df;
+	animation: cssload-load 0.39s linear -2.47s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.47s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.47s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.47s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.47s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(20) {
+	background: #2070df;
+	animation: cssload-load 0.39s linear -2.6s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.6s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.6s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.6s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.6s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(21) {
+	background: #2069df;
+	animation: cssload-load 0.39s linear -2.73s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.73s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.73s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.73s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.73s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(22) {
+	background: #2063df;
+	animation: cssload-load 0.39s linear -2.86s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.86s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.86s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.86s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.86s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(23) {
+	background: #205cdf;
+	animation: cssload-load 0.39s linear -2.99s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -2.99s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -2.99s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -2.99s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -2.99s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(24) {
+	background: #2056df;
+	animation: cssload-load 0.39s linear -3.12s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -3.12s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -3.12s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -3.12s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -3.12s infinite alternate;
+}
+.csscssload-load-frame .cssload-dot:nth-child(25) {
+	background: #2050df;
+	animation: cssload-load 0.39s linear -3.25s infinite alternate;
+		-o-animation: cssload-load 0.39s linear -3.25s infinite alternate;
+		-ms-animation: cssload-load 0.39s linear -3.25s infinite alternate;
+		-webkit-animation: cssload-load 0.39s linear -3.25s infinite alternate;
+		-moz-animation: cssload-load 0.39s linear -3.25s infinite alternate;
+}
+
+
+
+@keyframes cssload-load {
+	100% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+}
+
+@-o-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-o-transform: scale(0.5);
+	}
+}
+
+@-ms-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-ms-transform: scale(0.5);
+	}
+}
+
+@-webkit-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(0.5);
+	}
+}
+
+@-moz-keyframes cssload-load {
+	100% {
+		opacity: 0;
+		-moz-transform: scale(0.5);
+	}
+}
+
+/* MODAL */
+
+.box-modal {
+	position: relative;
+	width: 500px;
+	padding: 16px;
+	background: #fff;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+
+.form {
+	margin-top: 7%;
+}
+
+.form__btn {
+	margin: 30px auto 0 auto !important;
+}
+
+.form input {
+	border: 1px solid #149d6f;
+	border-radius: 5px;
+	width: 100%;
+	padding: 15px 0 15px 7px;
+	font-size: 17px;
+	font-family: 'Museo Sans 300';
+}
+
+/* ----------- HEADER -------------*/
+
+.navigation {
+	border-top: 5px solid #58647a;
+	padding-top: 17px;
+	padding-bottom: 10px;
+	background: rgba(191, 194, 200, 0.41);
+	border-bottom: 4px solid rgba(88, 100, 122, 0.21);
+}
+
+.menu {
+	margin-top: 21px;
+}
+
+.menu__item a {
+	color: #3f4b60;
+	font-family: 'Museo Sans 700';
+	font-size: 17px;
+}
+
+.header__btn {
+    margin-left: auto;
+    padding: 7px 0 9px 17px;
+    margin-top: 15px;
+    width: 156px;
+}
+
+.fa-phone_btn {
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+	color: #46e6b0;
+}
+
+.fa-phone_rotate {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+
+.header-about {
+	padding-top: 60px;
+	padding-bottom: 70px;
+	background: #fafafb;
+}
+
+.about__title {
+	font-size: 38px;
+}
+
+.about__link {
+	font-size: 16px;
+	font-family: 'Museo Sans 300';
+}
+
+.about__home {
+	color: #49556b !important;
+	border-bottom: 1px solid #666f81;
+}
+
+.about__home:hover {
+	color: #49556b;
+}
+
+.about__descrip {
+	color: #7e838d;
+	margin-left: 5px;
+}
+
+.about-menu {
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+
+.about-menu__item a {
+	color: #a1a6af;
+	font-size: 16px;
+	font-family: 'Museo Sans 700';
+	margin-right: 37px;
+	display: block;
+}
+
+.about-menu__item a:hover {
+	color: #b81c31;
+	border: 2px solid #b81c31;
+	border-radius: 3px;
+	padding: 10px 12px 9px 19px;
+	margin: -12px 22px 0 -20px;
+}
+
+.item-active a {
+	color: #b81c31;
+	border: 2px solid #b81c31;
+	border-radius: 3px;
+	padding: 10px 12px 9px 19px;
+	margin: -12px 22px 0 -20px;
+}
+
+.about-menu__item p {
+	font-size: 13px;
+	font-family: 'Museo Sans 300';
+	color: #a1a6af;
+}
+
+.about-menu__item p:hover {
+	color: #b81c31;
+}
+
+.item-active p {
+	color: #b81c31;
+}
+
+/* INDEX */
+
+.header-home {
+	padding-bottom: 147px;
+	background: #c6c8da url(../img/bg-home.jpg) no-repeat fixed center center / cover;
+}
+
+.offer {
+	padding-top: 102px;
+}
+
+.offer__text {
+	font-size: 29px;
+	font-family: 'Museo Sans 100';
+	width: 470px;
+	line-height: 1.2em;
+	margin-top: 14px;
+	margin-bottom: 32px;
+}
+
+.offer__socil {
+	width: 175px;
+	height: 50px;
+	background: rgba(255, 255, 255, 0.82);
+	border: 3px solid rgba(255, 255, 255, 0.66);
+	border-radius: 3px;
+	align-items: center;
+	justify-content: center;
+}
+
+.offer__facebook {
+	border: 2px solid #2c60a0;
+	color: #2c60a0 !important;
+}
+
+.offer__twitter {
+	border: 2px solid #3bc8fd;
+	color: #3bc8fd !important;
+	margin: 0 20px;
+}
+
+.offer__telegram-plane {
+	border: 2px solid #25a3d4;
+	color: #25a3d4 !important;
+}
+
+.offer__telegram-plane i:hover {
+	font-size: 21px;
+	color: #25a3d4;
+}
+
+.offer__twitter i:hover {
+	font-size: 21px;
+	color: #3bc8fd;
+}
+
+.offer__facebook i:hover {
+	color: #2c60a0;
+	font-size: 21px;
+}
+
+/* --------- SECOND SECTION --------- */
+
+/* INDEX */
+
+.trust {
+	background: #f1f1f3;
+	padding-top: 50px;
+	padding-bottom: 97px;
+	text-align: center;
+}
+
+.trust__title {
+	margin-bottom: 40px;
+}
+
+.trust__btn {
+	width: 170px;
+	font-size: 16px;
+	padding: 10px 0;
+    margin: 70px auto -140px auto;
+}
+
+.reason__title {
+	margin-top: 23px;
+}
+
+.reason__text {
+	font-size: 14px;
+	font-family: 'Museo Sans 300';
+}
+
+.reason_text {
+	margin-top: 8px;
+}
+
+.feature {
+	padding-top: 50px;
+	color: #404048;
+	font-size: 15px;
+	font-family: 'Museo Sans 300';
+}
+
+.feature__text {
+	margin-top: 21px;
+	margin-bottom: 49px;
+}
+
+.advantage {
+	padding: 33px 0;
+	border-top: 2px solid #e5e6e8;
+}
+
+.advantage_third {
+	border-bottom: 2px solid #e5e6e8;
+}
+
+.advantage img {
+	margin: 14px;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.wrapper__overlay {
+	position: absolute;
+	border: 2px solid #102e62;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+
+.advan {
+	margin-left: auto;
+	width: 92%;
+}
+
+/* CONTACS */
+
+.maps {
+	color: #fff;
+	position: relative;
+}
+
+.map:before {
+	content: ' '; 
+	display: block;
+    border-top: 24px solid transparent;
+    border-right: 26px solid rgba(130, 139, 160, 0.75);
+    border-bottom: 24px solid transparent;
+    position: absolute;
+    left: -26px;
+}
+
+.map {
+	background: rgba(130, 139, 160, 0.75);
+	margin-left: auto;
+	width: 43%;
+	padding: 21px 36px 50px 39px;
+	border-radius: 6px;
+	position: relative;
+	position: absolute;
+	right: 0%;
+	bottom: 50px;
+}
+
+.map__info {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+	border-radius: 1px;
+	padding-bottom: 12px;
+}
+
+.map__social {
+	margin-left: auto;
+}
+
+.map__twitter {
+	margin: 0 20px;
+}
+
+.map__facebook, .map__twitter, .map__telegram-plane {
+	color: #fff;
+	border: 2px solid #fff;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.map__social i:hover {
+	font-size: 19px;
+}
+
+.map a {
+	font-family: 'Museo Sans 300';
+	font-size: 16px;
+}
+
+.map__title {
+	color: #fff;
+	margin-top: 5px;
+}
+
+.map__feature {
+	margin-top: 47px;
+}
+
+.map__contact {
+	line-height: 1.6em;
+}
+
+.map__phone {
+	margin-bottom: 20px;
+}
+
+.map__street {
+	width: 140px;
+	font-family: 'Museo Sans 300';
+	font-size: 16px;
+}
+
+.map__email {
+	margin-top: 21px;
+}
+
+.map__descrip {
+	margin-left: auto;
+	line-height: 1em;
+}
+
+.map__text {
+	font-family: 'Museo Sans 100';
+	width: 180px;
+	font-size: 12px;
+	margin-bottom: 17px;
+}
+
+.map__fa {
+	margin-right: 9px;
+	font-size: 12px;
+}
+
+.fa-envelope {
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+}
+
+/* SERVICES */
+
+.service {
+	padding-top: 42px;
+	padding-bottom: 39px;
+	font-family: 'Museo Sans 300';
+	color: #fff;
+	background: #868c9f url(../img/bg-services.jpg) no-repeat center center / cover;
+}
+
+.service img {
+	border-radius: 50%;
+	border: 7px solid #b3b6c1;
+	margin-top: 22px;
+}
+
+.legal {
+	margin-top: 33px;
+}
+
+.legal__title {
+	color: #fff;
+	margin-bottom: 16px;
+}
+
+.service__link {
+	padding: 17px 14px 13px 27px;
+	border: 2px solid #bfc1cc;
+	border-radius: 7px;
+	width: 370px;
+	margin-left: auto;
+}
+
+.service__link a {
+	display: block;
+	font-family: 'Museo Sans 300';
+	margin-bottom: 10px;
+	letter-spacing: 0.04em;
+	font-size: 15.6px;
+}
+
+.service__link a:hover {
+	text-decoration: underline;
+}
+
+/* ---------- THIRD SECTION --------- */
+
+/* INDEX */
+
+.specificity {
+	padding-top: 104px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-family: 'Museo Sans 100';
+	color: #404048;
+}
+
+.specific__letter {
+	border-radius: 50%;
+	background: #102e62;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 86px;
+	height: 86px;
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+.specific__title {
+	margin-top: 9px;
+	margin-bottom: 10px;
+}
+
+.specific__sign {
+	color: #b81c31;
+}
+
+.specific__text {
+	font-family: 'Museo Sans 300';
+	letter-spacing: 0.002em;
+	line-height: 1.28em;
+}
+
+/* ABOUT */
+
+.gallery {
+	padding-top: 49px;
+	padding-bottom: 71px;
+}
+
+.gallery__title {
+	margin-bottom: 38px;
+}
+
+.fa-expand {
+	color: #fff;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	position: relative;
+}
+
+.image img {
+	width: 100%;
+	display: block;
+}
+
+.overlay {
+	position: absolute;
+	opacity: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 68, 86, 0.68);
+    border: 7px solid #9a97a7;
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+/* SERVICES */
+
+.subcategory {
+	padding-top: 53px;
+}
+
+.subcategory__text {
+	color: #404048;
+	font-size: 15px;
+	font-family: 'Museo Sans 300';
+	margin-top: 18px;
+	line-height: 1.2em;
+}
+
+.nav {
+	padding-top: 50px;
+	background: #fafafb;
+}
+
+.nav__title {
+	margin-left: 27px;
+	color: #989eaa;
+}
+
+.nav__link {
+	margin-top: 35px;
+}
+
+.nav__link a {
+	font-size: 16px;
+	color: #747487;
+	font-family: 'Museo Sans 700';
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #dfdfe8;
+}
+
+.nav__link a:before {
+	content: ' ';
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background: #aeaeb9;
+	margin-right: 17px;
+	margin-top: 5px;
+	margin-left: 18px;
+}
+
+.free {
+	border: 2px solid #e3e4e6;
+	border-radius: 7px;
+	font-family: 'Museo Sans 700';
+	padding: 18px 30px;
+	position: relative;
+	margin-top: 36px;
+	width: 65%;
+	margin-bottom: 54px;
+}
+
+.free__title {
+	font-size: 16px;
+	color: #414449;
+	margin-bottom: 15px;
+}
+
+.free__reservation {
+	background: transparent;
+	border: 2px solid #b81c31;
+	color: #b81c31;
+	font-family: 'Museo Sans 700';
+	font-size: 14px;
+	border-radius: 3px;
+	margin-right: 17px;
+	padding: 9px 24px 10px 18px;
+}
+
+.free__reservation:hover {
+	background: #b81c31;
+}
+
+.free__tel {
+	font-size: 14px;
+	color: #585f6b;
+	display: flex;
+	align-items: center;
+}
+
+.free__tel:hover {
+	color: #585f6b;
+}
+
+.free__text {
+	font-size: 12px;
+	color: #888d95;
+	font-family: 'Museo Sans 300';
+	width: 70%;
+	letter-spacing: 0.02em;
+	margin-top: 12px;
+}
+
+.free__img {
+	position: absolute;
+	right: 2%;
+	bottom: 5%;
+}
+
+.reviews {
+	flex-direction: column;
+}
+
+/* --------- FOURTH SECTION --------- */
+
+.missions {
+	padding-top: 37px;
+	padding-bottom: 61px;
+	color: #cccfd5;
+	background: #616c81 url(../img/bg-missions.jpg) no-repeat center center / cover;
+}
+
+.missions__title {
+	color: #a9aeb8;
+	border-bottom: 3px solid #6e788a;
+	padding-bottom: 7px;
+}
+
+.missions__left {
+	width: 55%;
+}
+
+.missions__right {
+	margin-left: auto;
+	width: 43%;
+}
+
+.missions__text	{
+	font-size: 15px;
+	font-family: 'Museo Sans 300';
+	margin-top: 15px;
+	line-height: 1.2em;
+}
+
+.missions__link {
+	font-family: 'Museo Sans 700';
+	border: 2px solid #ced1d8;
+	font-size: 16px;
+	color: #ced1d8;
+	width: 173px;
+	display: block;
+	text-align: center;
+	padding: 9px 0 8px 0;
+	margin-top: 34px;
+}
+
+.missions__link:hover {
+	background: #ced1d8;
+	color: #606b7f;
+}
+
+.new {
+	padding-top: 18px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #6d788c;
+}
+.new img {
+	opacity: 0.7;
+}
+
+.new__text {
+	font-family: 'Museo Sans 700';
+	font-size: 12px;
+	color: #dcdfe2 !important;
+}
+
+.new__descrip {
+	color: #a1a8b3;
+	font-size: 11px;
+	font-family: 'Museo Sans 100';
+	margin-left: 10px;
+}
+
+/* ------- FIFTH SECTION --------- */
+
+.contact {
+	background: #3a4456;
+	padding-top: 38px;
+}
+
+.info {
+	margin-bottom: 48px;
+}
+
+.info__title {
+	color: #c9cace;
+	margin-bottom: 15px;
+}
+
+.info a {
+	color: #a5a8af;
+	display: block;
+	font-size: 14px;
+	font-family: 'Museo Sans 100';
+	line-height: 2em;
+}
+
+.info a:hover {
+	color: #fff;
+}
+
+/* ---------- FOOTER --------- */
+
+.footer {
+	background: #1f2531;
+	color: #aaabae;
+	font-size: 12px;
+	padding-bottom: 60px;
+	border-bottom: 18px solid #58647a;
+	font-family: 'Museo Sans 100';
+}
+
+.footer__text {
+	margin-top: 34px;
+}
+
+.footer__adress {
+	width: 110px;
+	margin-top: 13px;
+}
+
+.footer__link {
+	color: #aaabae;
+}
+
+.footer__link:hover, .footer__link:active {
+	text-decoration: underline;
+	box-shadow: none;
+}
+
+.design {
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.design__web {
+	font-size: 10px;
+	font-family: 'Museo Sans 100';
+	margin-bottom: -4px;
+}
+
+.design__link {
+	width: 25px;
+	height: 25px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background: transparent;
+	border: 1px solid #acafb3;
+	margin-right: 11px;
+	font-size: 15px;
+	color: #aaabae;
+}
+
+.design__online {
+	font-size: 12px;
+	font-family: 'Museo Sans 100';
+	text-transform: uppercase;
+	color: #aaabae;
+}
+
+.design__online:hover, .design__online:active {
+	text-decoration: underline;
+}
+
+.footer__sait {
+	text-decoration: underline;
+	color: #aaabae;
+}
+
+.footer__sait:hover, .footer__sait:active {
+	text-decoration: underline;
+}
+
+.footer__btn {
+	width: 156px;
+	margin-top: 68px;
+	margin-left: auto;
+}
+
+/* ------- MEDIA QUERIES ------- */
+
+@media screen and (max-width: 992px) {
+	.footer {
+		padding: 36px 0 37px 0;
+	}
+	.design {
+		margin: 0 0 21px 0;
+	}
+	.footer__text {
+		margin-top: 0;
+	}
+	.gallery {
+		padding-bottom: 53px;
+	}
+	.advan {
+		width: 87%;
+	}
+	.about {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.about__link {
+		justify-content: center;
+	}
+	.about-menu {
+		justify-content: center;
+		margin-top: 63px;
+	}
+	.about-menu__item a {
+		margin-bottom: 15px;
+	}
+	.about-menu__item a:hover {
+		margin-bottom: 0;
+	}
+	.legal__title {
+		width: 60%;
+	}
+	.service {
+		padding: 45px 0;
+	}
+	.service img {
+		margin-top: 0;
+	}
+	.footer img {
+		width: 90%;
+	}
+	.free {
+		width: 100%;
+		margin-bottom: 47px;
+	}
+	.description {
+		padding-bottom: 0;
+	}
+	.nav__link {
+		width: 100%;
+	}
+	.map:before {
+		display: none;
+	}
+	.map {
+		width: 100%;
+	}
+	.map__descrip {
+		margin-left: 5%;
+	}
+	.map__text {
+		width: 76%;
+		margin-left: auto;
+	}
+	.map__contact {
+		width: 50%;
+	}
+	.new__descrip {
+		margin-top: 2%;
+	}
+	.missions__link {
+		margin-bottom: 25px;
+	}
+	.specific {
+		margin-bottom: 25px;
+	}
+	.reason {
+		margin-top: 20px;
+	}
+	.map {
+		position: relative;
+		top: 0px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.image {
+		margin-bottom: 10px;
+	}
+	.advan {
+		width: 83%;
+	}
+	.about-menu {
+		flex-direction: column;
+	}
+	.about-menu__item {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.about-menu__item a {
+		margin-right: 0;
+		padding-right: 19px;
+	}
+	.about-menu__item a:hover {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4px;
+	}
+	.item-active {
+		margin: 0 auto;
+		margin-bottom: 4px;
+	}
+	.feature__text_left {
+		margin-bottom: 0;
+	}
+	.service img {
+		display: block;
+		margin: 0 auto;
+	}
+	.legal {
+		text-align: center;
+	}
+	.legal__title {
+		margin: 0 auto 18px auto;
+		text-align: center;
+	}
+	.map__feature {
+		flex-direction: column;
+	}
+	.map__descrip {
+		margin-left: 0;
+	}
+	.map__text {
+		width: 100%;
+		margin-top: 17px;
+	}
+	.map__contact {
+		width: 100%;
+	}
+	.mission__descrip {
+		flex-direction: column;
+	}
+	.missions__right {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.missions__left {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.navigation img {
+		width: 90%;
+		margin-top: 0;
+	}
+	.button {
+		margin-top: 0;
+		font-size: 10px;
+	}
+	.advantage {
+		flex-direction: column;
+	}
+	.advan {
+		width: 100%;
+		margin-top: 26px;
+	}
+	.info a {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.info__title {
+		text-align: center;
+	}
+	.design {
+		justify-content: center;
+		margin-top: 21px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer__text {
+		margin-top: 21px;
+	}
+	.footer__adress {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.footer img {
+		width: 50%;
+	}
+	.footer__btn {
+		margin: 21px auto 0 auto;
+	}
+	.map__title {
+		font-size: 16px;
+	}
+	.map__twitter {
+		margin-right: 7px;
+		margin-left: 7px;
+	}
+	.offer__text {
+		font-size: 18px;
+		width: 60%;
+	}
+	.offer__title {
+		font-size: 48px;
+	}
+	.free__img {
+		display: none;
+	}
+	.free__text {
+		width: 100%;
+	}
+	.free__reservation {
+		text-align: center;
+	}
+	.header__btn {
+		width: 110px;
+		font-size: 10px;
+		margin-top: 0;
+		padding-left: 7px;
+		margin-right: auto;
+		margin-left: 0;
+	}
+	.menu-open {
+		margin-top: 0;
+	}
+	.menu {
+		flex-direction: column;
+	}
+	.menu__item {
+		margin: 13px auto 0 auto;
+	}
+	.map {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.box-modal {
+		width: 280px;
+	}
+}
